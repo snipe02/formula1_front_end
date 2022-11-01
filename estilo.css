@@ -1,16 +1,14 @@
-
-
 body{
     background-color: gray;
-    padding-top:20px;
-    padding: 38px;
+    padding-top:3rem;      /*DIV ESTA DENTRO DA TEG BODY*/
+    padding: 3rem;
 }
 
 div#temporada{
     margin: 30px;
     padding:10px;
     background-color: white;
-    background-image: url(../formula1_front_end/imagens/fundo-f1.jpg);
+    background-image: url(../atividade_f1/imagens/fundo-f1.jpg);
     background-repeat: repeat-y;
     background-position: center;
     height: 100%;
@@ -26,51 +24,47 @@ div#temporada img.imagem{
 }
 
 hr{
-    border-bottom: 1px solid gray;
-    margin-top:-10px;
+    border-bottom: #808080d8 1px solid;
+    margin-top:-0.5rem;
 }
 
 hr.aux1{
-    width: 1.5%;
-    margin-left: 0px;
-    height: 25px;
+    width: 1rem; /*LARGURA DA LINHA HORIZONTAL(<hr>)*/
+    margin-left: 0.01rem; /*DISTÂNCIA DA LINHA HORIZONTAL(<hr>) EM RELAÇÃO À MARGEM ESQUERDA DO CONTEINER.*/
+    height: 1.5rem;
     background-color: gray;  
-    margin-top: -40px;
-    
+    margin-top: -2.5rem;
 }
+
 
 img.bandeira-temporada{
     position: absolute;
-    margin-left: 795px;
-    margin-top:-42px;
-}
-
-p.conteudo-temporada{
-    font-size: 15px;
+    margin-left: 69.4rem; /*MUDAR  PARA ESQUERDA A BANDEIRA-TEMPORADA*/
+    margin-top:-2.6rem; 
 }
 
 nav#menu-inicial{
     display: flex;
     flex-direction: column;
-    margin-left: 11px;
-    margin-top: -15px;
+    margin-left: 0.5rem;
+    margin-top: -1rem;
 }
 
 nav#menu-inicial ul{
     list-style:none;
-    line-height: 25px;
+    line-height: 1.7rem;
 }
 
 p.texto1{
-    margin-top: -10px;
+    margin-top: -0.5rem;
     text-align:justify;
-    line-height: 30px;
+    line-height: 1.8rem;
 }
 
 nav#paragrafo{
-    text-indent: 4%;
-    word-spacing: 8px;
-    letter-spacing: 0.5px;
+    text-indent: 3rem;
+    word-spacing: 0.5rem;
+
 }
 
 /*LINKS*/
@@ -91,12 +85,12 @@ a:hover{
 
 /*TABELA EQUIPES*/
 table.tabela-equipes{
-    text-indent: 22px;
+    text-indent: 1.4rem;
     width:50%;
 }
 
 table.tabela-equipes td{
-    border-bottom: gray dotted 1px;
+    border-bottom: gray dotted 0.1rem;
     line-height: 30px;
 }
 
@@ -105,62 +99,62 @@ table.tabela-equipes td{
 /*POSICAO DAS BANDEIRAS DOS PAÍSES*/
 img.reinounido{
     position: absolute;
-    margin-left: 5px;
-    margin-top:12px;
+    margin-left: 0.3rem;
+    margin-top:0.75rem;
 }
 
 img.italia{
     position: absolute;
-    margin-left: 5px;
-    margin-top:46px;
+    margin-left: 0.3rem;
+    margin-top:2.9rem;
 }
 
 img.alemanha{
     position: absolute;
-    margin-left: 5px;
-    margin-top:82px;
+    margin-left: 0.3rem;
+    margin-top: 5.2rem;
 }
 
 img.franca{
     position: absolute;
-    margin-left: 5px;
-    margin-top:115px;
+    margin-left: 0.3rem;
+    margin-top: 7.3rem;
 }
 
 img.japao{
     position: absolute;
-    margin-left: 5px;
-    margin-top:150px;
+    margin-left: 0.3rem;
+    margin-top: 9.6rem;
 }
 
 img.italia-tororosso{
     position: absolute;
-    margin-left: 5px;
-    margin-top:186px;
+    margin-left: 0.3rem;
+    margin-top: 11.8rem;
 }
 
 img.austria{
     position: absolute;
-    margin-left: 5px;
-    margin-top:220px;
+    margin-left: 0.3rem;
+    margin-top: 14rem;
 }
 
 img.reinounido-at{
     position: absolute;
-    margin-left: 5px;
-    margin-top:257px;
+    margin-left: 0.3rem;
+    margin-top: 16.4rem;
 }
 
 img.india{
     position: absolute;
-    margin-left: 5px;
-    margin-top:290px;
+    margin-left: 0.3rem;
+    margin-top: 18.4rem;
 }
 
 img.reinounido-brawn{
     position: absolute;
-    margin-left: 5px;
-    margin-top:327px;
+    margin-left: 0.3rem;
+    margin-top: 20.8rem;
 }
 
 table.tabela-pilotos{
@@ -168,20 +162,17 @@ table.tabela-pilotos{
 }
 
 table.tabela-pilotos th, td{
-     border-bottom: gray dotted 1px;
+     border-bottom: gray dotted 0.1rem;
      text-align: start;
 }
 
 p.f1{
-    text-indent: 32px;
-    word-spacing: 9px;
-    line-height: 30px;
+    text-indent: 2rem; /* Identação da primeira linha do parágrafo*/
+    word-spacing: 1rem;
+    line-height: 2rem;
+    text-align: justify;
 }
 
 ol.lista-links{
-    line-height: 25px;
+    line-height: 2rem;
 }
-
-
-
-
